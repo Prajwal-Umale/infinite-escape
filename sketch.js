@@ -157,7 +157,7 @@ if(frameCount%Math.round(random(80,120))===0){
 
 function  restartAgain(){
   score=0;
-  coin=0;
+  coins=0;
   gameState="play";
   frameCount=0;
   coinGroup.visible=false;
